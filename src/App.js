@@ -8,13 +8,65 @@ function App() {
 
             <header className="app__header">
 
-                <img src={logo} className="app__logo" alt="logo" />
+                <div className="app__main flex_col">
 
-                <p>
-                    React app.jsx website is running
-                </p>
+                    <img src={logo} className="app__logo" alt="logo" />
+
+                    <p>
+                        React app.jsx website is running
+                    </p>
+
+                </div>
 
             </header>
+
+            <Footer />
+
+        </div>
+
+    );
+}
+
+function Footer() {
+    return (
+
+        <div className="Footer__menu container">
+
+            <div className="Footer__card">
+
+
+
+            </div>
+
+            <div className="Footer__card">
+
+                
+
+            </div>
+
+            <div className="Footer__card">
+
+                
+
+            </div>
+
+            <div className="Footer__card">
+
+                
+
+            </div>
+
+            <div className="Footer__FAQ">
+
+
+
+            </div>
+
+            <div className="Footer__copy">
+
+
+
+            </div>
 
         </div>
 
