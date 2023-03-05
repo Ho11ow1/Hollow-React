@@ -1,3 +1,53 @@
+/*==================== IMPORT SETTINGS ====================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/*==================== ROOT VARIABLES ====================*/
+
+:root{
+
+    /*========== Colors | Dark ==========*/
+    /* Color setting HSL( hue, saturation, lightness) */
+
+    --white-color:#fff;
+    --text-color:hsl(24,4%,75%);
+    --text-color-light:hsl( 22 , 4%, 55% );
+    --body-color:hsl( 22, 8%, 6% );
+    --container-color:hsl( 22, 8%, 7% );
+
+    /*========== Font & Typography ==========*/
+    /* .5rem = 8px | 1rem = 16px */
+
+    --body-font:'Poppins', sans-serif;
+    --biggest-font-size:2em;
+    --bigger-font-size:1.5em;
+    --big-font-size:1.25em;
+    --normal-font-size:1em;
+    --small-font-size:.85em;
+    --mini-font-size:.8em;
+
+    /*========== Font Weight ==========*/
+
+    --font-weight-bold:700;
+    --font-weight-normal:600;
+    --font-weight-small:500;
+
+    /*========== Margines ==========*/
+	/* .5rem = 8px | 1rem = 16px */
+
+	--mb-1:1rem;
+	--mb-1-5:1.5rem;
+	--mb-2:2rem;
+	--mb-2-5:2.5rem;
+
+}
+
+/*==================== TEXT ====================*/
+
+a{
+    text-decoration:none;
+}
+
 /*==================== IMAGE ====================*/
 
 .app__logo {
@@ -84,4 +134,45 @@ section{
 }
 
 /*==================== NAVBAR ====================*/
+
+
+
+/*==================== FOOTER ====================*/
+
+.footer__menu{
+    padding-top:6rem;
+
+    text-align:center;
+}
+
+.footer__card{
+
+    height:250px;
+    width:200px;
+
+    padding:.5rem;
+}
+
+.footer__title{
+    font-size:var(--bigger-font-size);
+
+    margin-bottom:var(--mb-2);
+}
+
+.footer__text{
+    display:inline-block;
+
+    width:200px;
+
+    margin-bottom:var(--mb-1);
+}
+
+.footer__copy{
+    font-size:.9em;
+
+    text-align:center;
+    align-content:center;
+
+    margin: 3.5rem 0 2rem 0;
+}
 

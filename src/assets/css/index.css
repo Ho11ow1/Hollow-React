@@ -1,8 +1,8 @@
-/*==================== Import settings ====================*/
+/*==================== IMPORT SETTINGS ====================*/
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
-/*==================== Root Variables ====================*/
+/*==================== ROOT VARIABLES ====================*/
 
 :root{
 
@@ -98,10 +98,6 @@ h1,h2,h3{
 
 a{
     text-decoration:none;
-}
-
-ul{
-    list-style:none;
 }
 
 /*==================== Image settings ====================*/
