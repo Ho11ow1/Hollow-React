@@ -48,7 +48,7 @@
 	--z-fixed: 100;
 }
 
-/*==================== Base settings ====================*/
+/*==================== BASE ====================*/
 
 *{
     box-sizing:border-box;
@@ -71,7 +71,7 @@ body{
 	transition:.5s; /* For dark mode animation */
 }
 
-/*==================== Reaction settings ====================*/
+/*==================== REACTION ====================*/
 
 body,
 button,
@@ -87,7 +87,7 @@ button{
 	outline:none;
 }
 
-/*==================== Font settings ====================*/
+/*==================== TEXT ====================*/
 
 h1,h2,h3{
     color:var(--text-color);
@@ -100,10 +100,28 @@ a{
     text-decoration:none;
 }
 
-/*==================== Image settings ====================*/
+ul{
+    list-style:none;
+}
+
+/*==================== IMAGE ====================*/
 
 img{
 	max-width:100%;
 	height:auto;
 }
 
+
+
+/*==================== ADDITIONAL ====================*/
+
+::-webkit-scrollbar{
+    width:0.5rem;
+    background-color:#101010;
+    border-radius:1rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#3b3c40;
+    border-radius:1rem;
+}

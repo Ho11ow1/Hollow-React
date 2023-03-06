@@ -42,13 +42,7 @@
 
 }
 
-/*==================== TEXT ====================*/
-
-a{
-    text-decoration:none;
-}
-
-/*==================== IMAGE ====================*/
+/*==================== APP LOGO ====================*/
 
 .app__logo {
     height: 40vmin;
@@ -70,13 +64,10 @@ a{
     }
 }
 
-
-
 /*==================== REUSABLE CLASSES ====================*/
 
 section{
     width:1024px;
-    height:auto;
 
     padding:.5rem;
     margin:0 auto 0 auto;
@@ -84,7 +75,6 @@ section{
 
 .container{
     width:1024px;
-    height:auto;
 
     padding:.5rem;
     margin:0 auto 0 auto
@@ -92,28 +82,12 @@ section{
 
 .grid{
     display:grid;
+    place-items:center;
 
-    grid-template-columns:repeat( 2, 1fr );
-    grid-template-rows:repeat( 3, 1.5fr );
+    width:1256px;
 
-    column-gap:1.5rem;
-    row-gap:2rem;
-}
-
-.flex_col{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-}
-
-.flex_row{
-    display:flex;
-    flex-direction:row;
-    justify-content:center;
-    align-items:center;
-
-    column-gap:5rem;
+    padding:.5rem;
+    margin: 0 auto 0 auto;
 }
 
 
@@ -135,11 +109,48 @@ section{
 
 /*==================== NAVBAR ====================*/
 
+/*.nav{
+    width:100%;
 
+    position:fixed;
+    left:100;
+    top:0;
+    z-index:100;
 
+    display:flex;
+    justify-content:space-between;
+
+    background-color: var(--body-color);
+}
+
+.nav__menu{
+    margin-left:auto;
+    margin-right:auto;
+    place-items:center;
+}
+
+.nav__list{
+    display:flex;
+    column-gap:3.6rem;
+}
+
+.nav__item{
+    color:var(--white-color);
+    font-weight:var(--font-weight-normal);
+    font-size:var(--normal-font-size);
+}
+
+.nav__link{
+
+}
+/*
 /*==================== FOOTER ====================*/
 
 .footer__menu{
+    display:grid;
+    align-items:center;
+    grid-template-columns:repeat(4,1fr);
+
     padding-top:6rem;
 
     text-align:center;
@@ -176,3 +187,28 @@ section{
     margin: 3.5rem 0 2rem 0;
 }
 
+/*==================== BREAKPOINTS ====================*/
+
+/*========== Small Devices ==========*/
+
+@media screen and (max-width: 320px) {
+    .footer__menu{
+
+    }
+}
+
+/*========== Medium Devices ==========*/
+
+@media screen and (max-width: 768px) {
+    .footer__menu{
+
+    }
+}
+
+/*========== Large Devices ==========*/
+
+@media screen and ( max-width: 1024px) {
+    .footer__menu{
+
+    }
+}

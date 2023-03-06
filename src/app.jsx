@@ -28,6 +28,70 @@ function App() {
 
     );
 }
+
+// function Navbar() {
+//     return (
+
+//         <div className="nav container">
+
+//             <a href="#" class="nav__logo">
+//                 <i class="ri-leaf-line nav__logo-icon"> </i> 
+//                     Hollow1
+//             </a>
+
+//             <div className="nav__menu">
+
+//                 <ul className="nav__list">
+
+//                     <li className="nav__item">
+
+//                         <a href="#" className="nav__link">
+//                             Home
+//                         </a>
+
+//                     </li>
+
+//                     <li className="nav__item">
+
+//                         <a href="#" className="nav__link">
+//                             About
+//                         </a>
+
+//                     </li>
+
+//                     <li className="nav__item">
+
+//                         <a href="#" className="nav__link">
+//                             Shop
+//                         </a>
+
+//                     </li>
+
+//                     <li className="nav__item">
+
+//                         <a href="#" className="nav__link">
+//                             FaQs
+//                         </a>
+
+//                     </li>
+
+//                     <li className="nav__item">
+
+//                         <a href="#" className="nav__link">
+//                             Contact
+//                         </a>
+
+//                     </li>
+
+//                 </ul>
+
+//             </div>
+
+//         </div>
+
+//     );
+// }
+
 //Input
 //<img src={img} alt="img" />
 //<img src={img} alt="img" />
@@ -35,7 +99,7 @@ function App() {
 function Footer() {
     return (
 
-        <div className="footer__menu flex_row">
+        <div className="footer__menu grid">
 
             <div className="footer__card">
 
