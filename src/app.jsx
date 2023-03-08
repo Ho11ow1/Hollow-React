@@ -8,7 +8,7 @@ function App() {
 
             <header className="app__header">
 
-                <div className="app__main flex_col">
+                <div className="app__main">
 
                     <img src={logo} className="app__logo" alt="logo" />
 
@@ -29,68 +29,68 @@ function App() {
     );
 }
 
-// function Navbar() {
-//     return (
+    // function Navbar() {
+    //     return (
 
-//         <div className="nav container">
+    //         <div className="nav container">
 
-//             <a href="#" class="nav__logo">
-//                 <i class="ri-leaf-line nav__logo-icon"> </i> 
-//                     Hollow1
-//             </a>
+    //             <a href="#" class="nav__logo">
+    //                 <i class="ri-leaf-line nav__logo-icon"> </i> 
+    //                     Hollow1
+    //             </a>
 
-//             <div className="nav__menu">
+    //             <div className="nav__menu">
 
-//                 <ul className="nav__list">
+    //                 <ul className="nav__list">
 
-//                     <li className="nav__item">
+    //                     <li className="nav__item">
 
-//                         <a href="#" className="nav__link">
-//                             Home
-//                         </a>
+    //                         <a href="#" className="nav__link">
+    //                             Home
+    //                         </a>
 
-//                     </li>
+    //                     </li>
 
-//                     <li className="nav__item">
+    //                     <li className="nav__item">
 
-//                         <a href="#" className="nav__link">
-//                             About
-//                         </a>
+    //                         <a href="#" className="nav__link">
+    //                             About
+    //                         </a>
 
-//                     </li>
+    //                     </li>
 
-//                     <li className="nav__item">
+    //                     <li className="nav__item">
 
-//                         <a href="#" className="nav__link">
-//                             Shop
-//                         </a>
+    //                         <a href="#" className="nav__link">
+    //                             Shop
+    //                         </a>
 
-//                     </li>
+    //                     </li>
 
-//                     <li className="nav__item">
+    //                     <li className="nav__item">
 
-//                         <a href="#" className="nav__link">
-//                             FaQs
-//                         </a>
+    //                         <a href="#" className="nav__link">
+    //                             FaQs
+    //                         </a>
 
-//                     </li>
+    //                     </li>
 
-//                     <li className="nav__item">
+    //                     <li className="nav__item">
 
-//                         <a href="#" className="nav__link">
-//                             Contact
-//                         </a>
+    //                         <a href="#" className="nav__link">
+    //                             Contact
+    //                         </a>
 
-//                     </li>
+    //                     </li>
 
-//                 </ul>
+    //                 </ul>
 
-//             </div>
+    //             </div>
 
-//         </div>
+    //         </div>
 
-//     );
-// }
+    //     );
+    // }
 
 //Input
 //<img src={img} alt="img" />
