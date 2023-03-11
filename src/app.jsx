@@ -3,7 +3,6 @@ import './assets/css/app.css';
 
 function App() {
     return (
-
         <div className="app">
 
             <header className="app__header">
@@ -29,68 +28,72 @@ function App() {
     );
 }
 
-    // function Navbar() {
-    //     return (
+// function Navbar() {
+//     return (
 
-    //         <div className="nav container">
+//         <header className="header" id="header">
 
-    //             <a href="#" class="nav__logo">
-    //                 <i class="ri-leaf-line nav__logo-icon"> </i> 
-    //                     Hollow1
-    //             </a>
+//             <div className="nav container">
 
-    //             <div className="nav__menu">
+//                 <a href="#" class="nav__logo">
+//                     <i class="ri-leaf-line nav__logo-icon"> </i> 
+//                         Hollow1
+//                 </a>
 
-    //                 <ul className="nav__list">
+//                 <div className="nav__menu">
 
-    //                     <li className="nav__item">
+//                     <ul className="nav__list">
 
-    //                         <a href="#" className="nav__link">
-    //                             Home
-    //                         </a>
+//                         <li className="nav__item">
 
-    //                     </li>
+//                             <a href="#" className="nav__link">
+//                                 Home
+//                             </a>
 
-    //                     <li className="nav__item">
+//                         </li>
 
-    //                         <a href="#" className="nav__link">
-    //                             About
-    //                         </a>
+//                         <li className="nav__item">
 
-    //                     </li>
+//                             <a href="#" className="nav__link">
+//                                 About
+//                             </a>
 
-    //                     <li className="nav__item">
+//                         </li>
 
-    //                         <a href="#" className="nav__link">
-    //                             Shop
-    //                         </a>
+//                         <li className="nav__item">
 
-    //                     </li>
+//                             <a href="#" className="nav__link">
+//                                 Shop
+//                             </a>
 
-    //                     <li className="nav__item">
+//                         </li>
 
-    //                         <a href="#" className="nav__link">
-    //                             FaQs
-    //                         </a>
+//                         <li className="nav__item">
 
-    //                     </li>
+//                             <a href="#" className="nav__link">
+//                                 FaQs
+//                             </a>
 
-    //                     <li className="nav__item">
+//                         </li>
 
-    //                         <a href="#" className="nav__link">
-    //                             Contact
-    //                         </a>
+//                         <li className="nav__item">
 
-    //                     </li>
+//                             <a href="#" className="nav__link">
+//                                 Contact
+//                             </a>
 
-    //                 </ul>
+//                         </li>
 
-    //             </div>
+//                     </ul>
 
-    //         </div>
+//                 </div>
 
-    //     );
-    // }
+//             </div>
+
+//         </header>
+
+//     );
+// }
 
 //Input
 //<img src={img} alt="img" />

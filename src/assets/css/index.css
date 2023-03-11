@@ -98,6 +98,10 @@ h1,h2,h3{
 
 a{
     text-decoration:none;
+
+    color:var(--white-color);
+
+    font-weight:var(--font-weight-small);
 }
 
 ul{
@@ -111,7 +115,11 @@ img{
 	height:auto;
 }
 
+/*==================== THEMES ====================*/
 
+.light-theme{
+    
+}
 
 /*==================== ADDITIONAL ====================*/
 
